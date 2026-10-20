@@ -21,7 +21,6 @@ email and chat when Claude refreshes it.
 |---|---|
 | `index.html` | The whole page: layout, styles and code in one file |
 | `dogs/dog-01.png` to `dog-06.png` | Six example photo stickers (the daily rotation) |
-| `dog1.png`, `dog3.png` | Two stickers shown for a moment before the rotation loads |
 | `mug.png`, `star*.png` | Decorations around the date and the sticky note |
 | `cursor-pink.png` | The pink star mouse cursor |
 | `tools/make-stickers.ps1` | A Windows script that turns photos into stickers |
@@ -110,9 +109,7 @@ white border, named dog-01.png, dog-02.png, and so on."*
    - `STICKER_COUNT`: how many stickers you have.
    - `STICKER_FOLDER` and `STICKER_PREFIX`: change these only if you rename the folder
      or files, for example `"cats"` and `"cat-"` for `cats/cat-01.png`.
-3. Optional: replace `dog1.png` and `dog3.png` with any two of your stickers. They show
-   for a split second while the page loads.
-4. Ask Claude to republish the page with the new images.
+3. Ask Claude to republish the page with the new images.
 
 ---
 
